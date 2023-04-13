@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sarala", sans-serif;
+}
+
+html.body {
+  height: 100%;
+}
+
+.parent {
+  display: flex;
+}
+
+.barra-lateral {
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  background-color: #11530f;
+}
+
+.barra-lateral-pos {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.imagem-barra-lateral {
+  text-align: center;
+}
+
+.imagem-barra-lateral img {
+  width: 80%;
+  border: 8px solid #11530f;
+  border-radius: 50%;
+}
+
+.menu {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.menu a {
+  color: white;
+  opacity: 0.4;
+  font-size: 24px;
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.menu a.selected {
+  opacity: 1;
+}
+
+.conteudo {
+  position: absolute;
+  left: 20%;
+  width: 80%;
+  height: 100%;
+  overflow-y: auto;
+  padding: 0 3%;
+}
+
+section.descricao {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+section.descricao h2 {
+  color: #6c757d;
+  font-size: 46px;
+}
+
+.redes-img {
+  width: 10px;
+  height: 10px;
+}
+
+section.descricao h2 > span,
+section.descricao h3 > span {
+  color: #11530f;
+}
+
+section.descricao h3 {
+  margin: 15px 0;
+  color: #6c757d;
+  font-size: 26px;
+}
+
+section.descricao p {
+  color: #6c757d;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.img-social {
+  margin-top: 20px;
+}
+
+.img-social img {
+  text-decoration: none;
+  color: white;
+  background-color: gray;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+  vertical-align: 20px;
+}
+
+.menu a.hover{
+    color: white;
+}
